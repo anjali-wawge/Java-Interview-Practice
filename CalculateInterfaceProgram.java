@@ -14,7 +14,7 @@ class Wheels implements CalculateInterface{
 		System.out.println(b);
 	}
 }
-public class Calculate extends Wheels{
+public class CalculateInterfaceProgram extends Wheels{
 	public static void main(String[] args) {
 		Calculate calc=new Calculate();
 		calc.rotationOfWheels();
