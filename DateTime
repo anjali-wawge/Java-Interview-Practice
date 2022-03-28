@@ -1,0 +1,20 @@
+package com.datePrograms;
+
+import java.time.LocalDate;
+import java.time.LocalTime;
+
+public class DateTime {
+	public static void currentDate() {
+		LocalDate localDate=LocalDate.now();
+		System.out.println(localDate);
+	}
+	public static void currentTime() {
+		LocalTime localTime=LocalTime.now();
+		System.out.println(localTime);
+	}
+	public static void main(String[] args) {
+		DateTime.currentDate();
+		DateTime.currentTime();
+	}
+
+}
