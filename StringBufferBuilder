@@ -1,0 +1,15 @@
+package com.combinePrograms;
+
+public class StringBufferBuilder {
+
+	public static void main(String[] args) {
+		StringBuffer buffer=new StringBuffer("String ");
+		buffer.append("buffer");
+		System.out.println(buffer);
+		
+		StringBuilder builder=new StringBuilder("String ");
+		builder.append("builder");
+		
+		System.out.println(builder);
+	}
+}
